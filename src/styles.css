@@ -34,7 +34,7 @@ body {
     margin: 0;
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav li.active {
@@ -43,4 +43,6 @@ body {
 
 .nav li:hover {
     background-color: #777;
+    border-radius: .5rem;
+    transition: .4s;
 }
