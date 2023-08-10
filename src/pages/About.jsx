@@ -22,7 +22,7 @@ export default function About() {
                     <ul>
                         <li>Spread Awareness</li><span><p>Endorse education as the key to building a world that values sustainable thinking, encouraging action, and awakening young minds.</p></span>
                         <li>Nurture Respect</li>
-                        <li></li>
+                        <li>Foster Collaboration</li><span><p>Uphold a model of teamwork that promotes collaboration among students and between students and their communities.</p></span>
                         <li></li>
                     </ul>
                 </div>
