@@ -4,8 +4,11 @@ import App from './App.jsx'
 import './styles.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import About from './pages/About.jsx'
+import Home from './pages/Home.jsx'
 import Pricing from './pages/Pricing.jsx'
+import Team from './pages/Team.jsx'
 import CatchAll from './pages/CatchAll.jsx'
+import Programs from './pages/Programs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,8 +20,20 @@ const router = createBrowserRouter([
     element: <About />
   },
   {
+    path: "/team",
+    element: <Team />
+  },
+  {
+    path: "/home",
+    element: <Home />
+  },
+  {
     path: "/pricing",
     element: <Pricing />
+  },
+  {
+    path: "/programs",
+    element: <Programs />
   },
   { //catch all at back of list
     path: "*",
